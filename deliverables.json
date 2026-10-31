@@ -27,6 +27,13 @@
       "repo": "https://github.com/leonptucker3886-lab/blockwatch",
       "deploy": "https://blockwatch-goodbyedawg-7221s-projects.vercel.app",
       "shipped": "2026-10-31"
+    },
+    {
+      "name": "ReskinKit v0.1",
+      "owner": "SGT Matu May",
+      "repo": "https://github.com/leonptucker3886-lab/reskinkit",
+      "deploy": "https://reskinkit-goodbyedawg-7221s-projects.vercel.app",
+      "shipped": "2026-10-31"
     }
   ]
 }
