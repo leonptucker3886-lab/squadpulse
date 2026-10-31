@@ -1,39 +1,10 @@
 {
   "projects": [
-    {
-      "name": "specop-day1-worklog-board",
-      "owner": "SGT Matu May",
-      "repo": "https://github.com/leonptucker3886-lab/specop-day1-worklog-board",
-      "deploy": "https://specop-day1-worklog-board-goodbyedawg-7221s-projects.vercel.app",
-      "shipped": "2026-10-30"
-    },
-    {
-      "name": "SkillPath v0.1",
-      "owner": "SGT Matu May",
-      "repo": "https://github.com/leonptucker3886-lab/skillpath",
-      "deploy": "https://skillpath-goodbyedawg-7221s-projects.vercel.app",
-      "shipped": "2026-10-30"
-    },
-    {
-      "name": "SerialDesk v0.1",
-      "owner": "SGT Matu May",
-      "repo": "https://github.com/leonptucker3886-lab/serialdesk",
-      "deploy": "https://serialdesk-goodbyedawg-7221s-projects.vercel.app",
-      "shipped": "2026-10-30"
-    },
-    {
-      "name": "BlockWatch v0.1",
-      "owner": "CPL Nolin Peter",
-      "repo": "https://github.com/leonptucker3886-lab/blockwatch",
-      "deploy": "https://blockwatch-goodbyedawg-7221s-projects.vercel.app",
-      "shipped": "2026-10-31"
-    },
-    {
-      "name": "ReskinKit v0.1",
-      "owner": "SGT Matu May",
-      "repo": "https://github.com/leonptucker3886-lab/reskinkit",
-      "deploy": "https://reskinkit-goodbyedawg-7221s-projects.vercel.app",
-      "shipped": "2026-10-31"
-    }
+    {"name": "specop-day1-worklog-board", "owner": "SGT Matu May", "repo": "https://github.com/leonptucker3886-lab/specop-day1-worklog-board", "deploy": "https://specop-day1-worklog-board-goodbyedawg-7221s-projects.vercel.app", "shipped": "2026-10-30"},
+    {"name": "SkillPath v0.1", "owner": "SGT Matu May", "repo": "https://github.com/leonptucker3886-lab/skillpath", "deploy": "https://skillpath-goodbyedawg-7221s-projects.vercel.app", "shipped": "2026-10-30"},
+    {"name": "SerialDesk v0.1", "owner": "SGT Matu May", "repo": "https://github.com/leonptucker3886-lab/serialdesk", "deploy": "https://serialdesk-goodbyedawg-7221s-projects.vercel.app", "shipped": "2026-10-30"},
+    {"name": "BlockWatch v0.1", "owner": "CPL Nolin Peter", "repo": "https://github.com/leonptucker3886-lab/blockwatch", "deploy": "https://blockwatch-goodbyedawg-7221s-projects.vercel.app", "shipped": "2026-10-31"},
+    {"name": "ReskinKit v0.1", "owner": "SGT Matu May", "repo": "https://github.com/leonptucker3886-lab/reskinkit", "deploy": "https://reskinkit-goodbyedawg-7221s-projects.vercel.app", "shipped": "2026-10-31"},
+    {"name": "Kids Corner (StoryForge Kids) v0.3", "owner": "SGT Matu May", "repo": "https://github.com/leonptucker3886-lab/storyforge-kids", "deploy": "https://storyforge-kids-goodbyedawg-7221s-projects.vercel.app", "shipped": "2026-10-31"}
   ]
 }
