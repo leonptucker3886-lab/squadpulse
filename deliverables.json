@@ -20,6 +20,13 @@
       "repo": "https://github.com/leonptucker3886-lab/serialdesk",
       "deploy": "https://serialdesk-goodbyedawg-7221s-projects.vercel.app",
       "shipped": "2026-10-30"
+    },
+    {
+      "name": "BlockWatch v0.1",
+      "owner": "CPL Nolin Peter",
+      "repo": "https://github.com/leonptucker3886-lab/blockwatch",
+      "deploy": "https://blockwatch-goodbyedawg-7221s-projects.vercel.app",
+      "shipped": "2026-10-31"
     }
   ]
 }
