@@ -2,11 +2,17 @@ name: SquadPulse hourly check
 on:
   schedule:
     - cron: "5 * * * *"
+    - cron: "35 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [pulse]
   push:
     paths: ["deliverables.json","heartbeats.json"]
 permissions:
   contents: write
+concurrency:
+  group: pulse
+  cancel-in-progress: false
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -18,5 +24,6 @@ jobs:
       - run: |
           git config user.name "squadpulse-bot"
           git config user.email "squadpulse-bot@users.noreply.github.com"
+          git pull --rebase || true
           git add status.json
-          git diff --cached --quiet || (git commit -m "pulse: status $(date -u +%FT%TZ) [skip ci]" && git push)
+          git diff --cached --quiet || (git commit -m "pulse: status $(date -u +%FT%TZ) via ${{ github.event_name }} [skip ci]" && git push)
