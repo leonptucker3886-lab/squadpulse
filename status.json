@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-31T09:30:01.004Z",
+  "checked_at": "2026-10-31T13:11:39.530Z",
   "silence_minutes": 60,
-  "up": 5,
+  "up": 6,
   "down": 0,
   "deploys": [
     {
@@ -11,7 +11,7 @@
       "repo": "https://github.com/leonptucker3886-lab/specop-day1-worklog-board",
       "http": 200,
       "up": true,
-      "ms": 235
+      "ms": 335
     },
     {
       "name": "SkillPath v0.1",
@@ -20,7 +20,7 @@
       "repo": "https://github.com/leonptucker3886-lab/skillpath",
       "http": 200,
       "up": true,
-      "ms": 247
+      "ms": 212
     },
     {
       "name": "SerialDesk v0.1",
@@ -29,7 +29,7 @@
       "repo": "https://github.com/leonptucker3886-lab/serialdesk",
       "http": 200,
       "up": true,
-      "ms": 214
+      "ms": 231
     },
     {
       "name": "BlockWatch v0.1",
@@ -38,7 +38,7 @@
       "repo": "https://github.com/leonptucker3886-lab/blockwatch",
       "http": 200,
       "up": true,
-      "ms": 273
+      "ms": 125
     },
     {
       "name": "ReskinKit v0.1",
@@ -47,26 +47,35 @@
       "repo": "https://github.com/leonptucker3886-lab/reskinkit",
       "http": 200,
       "up": true,
-      "ms": 141
+      "ms": 219
+    },
+    {
+      "name": "Kids Corner (StoryForge Kids) v0.3",
+      "owner": "SGT Matu May",
+      "deploy": "https://storyforge-kids-goodbyedawg-7221s-projects.vercel.app",
+      "repo": "https://github.com/leonptucker3886-lab/storyforge-kids",
+      "http": 200,
+      "up": true,
+      "ms": 107
     }
   ],
   "members": [
     {
       "name": "MAJ Bert",
       "last_seen": "2026-10-31T07:03:23Z",
-      "minutes_since": 147,
+      "minutes_since": 368,
       "silent": true
     },
     {
       "name": "CPL Nolin Peter",
       "last_seen": "2026-10-31T07:03:51Z",
-      "minutes_since": 146,
+      "minutes_since": 368,
       "silent": true
     },
     {
       "name": "SGT Matu May",
       "last_seen": "2026-10-31T07:05:00Z",
-      "minutes_since": 145,
+      "minutes_since": 367,
       "silent": true
     }
   ]
