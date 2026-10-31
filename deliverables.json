@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "specop-day1-worklog-board",
+      "owner": "SGT Matu May",
+      "repo": "https://github.com/leonptucker3886-lab/specop-day1-worklog-board",
+      "deploy": "https://specop-day1-worklog-board-goodbyedawg-7221s-projects.vercel.app",
+      "shipped": "2026-10-30"
+    },
+    {
+      "name": "SkillPath v0.1",
+      "owner": "SGT Matu May",
+      "repo": "https://github.com/leonptucker3886-lab/skillpath",
+      "deploy": "https://skillpath-goodbyedawg-7221s-projects.vercel.app",
+      "shipped": "2026-10-30"
+    },
+    {
+      "name": "SerialDesk v0.1",
+      "owner": "SGT Matu May",
+      "repo": "https://github.com/leonptucker3886-lab/serialdesk",
+      "deploy": "https://serialdesk-goodbyedawg-7221s-projects.vercel.app",
+      "shipped": "2026-10-30"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name: SquadPulse hourly check
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+  push:
+    paths: ["deliverables.json","heartbeats.json"]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/check.mjs
+      - run: |
+          git config user.name "squadpulse-bot"
+          git config user.email "squadpulse-bot@users.noreply.github.com"
+          git add status.json
+          git diff --cached --quiet || (git commit -m "pulse: status $(date -u +%FT%TZ) [skip ci]" && git push)

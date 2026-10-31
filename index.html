@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SquadPulse v0.1</title><style>
+body{font-family:system-ui,sans-serif;background:#FAFAF9;color:#18181B;max-width:900px;margin:2rem auto;padding:0 1rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0}td,th{border-bottom:1px solid #DEDDD8;padding:.5rem;text-align:left}
+.up{color:#008300;font-weight:700}.down{color:#c0392b;font-weight:700}small{color:#666}
+</style></head><body>
+<h1>SquadPulse v0.1</h1><p>Deploy checker + silence catcher. A link counts as UP only if it actually returns HTTP 2xx/3xx. Checked hourly by GitHub Actions.</p>
+<p id="meta"><small>Loading…</small></p>
+<h2>Deploys</h2><table><thead><tr><th>Project</th><th>Owner</th><th>Status</th><th>HTTP</th><th>Link</th></tr></thead><tbody id="d"></tbody></table>
+<h2>Squad silence</h2><table><thead><tr><th>Member</th><th>Last seen (UTC)</th><th>Minutes</th><th>Status</th></tr></thead><tbody id="m"></tbody></table>
+<script>
+const SRC="https://raw.githubusercontent.com/leonptucker3886-lab/squadpulse/main/status.json";
+fetch(SRC+"?t="+Date.now()).then(r=>r.json()).then(s=>{
+ if(!s.checked_at){meta.innerHTML="<small>No check has run yet.</small>";return;}
+ meta.innerHTML=`<small>Last check: ${s.checked_at} — ${s.up} UP, ${s.down} DOWN. Silence threshold ${s.silence_minutes} min.</small>`;
+ d.innerHTML=s.deploys.map(x=>`<tr><td>${x.name}</td><td>${x.owner}</td><td class="${x.up?'up':'down'}">${x.up?'UP':'DOWN'}</td><td>${x.http??(x.error||'-')}</td><td><a href="${x.deploy}">open</a></td></tr>`).join("");
+ m.innerHTML=s.members.map(x=>`<tr><td>${x.name}</td><td>${x.last_seen}</td><td>${x.minutes_since}</td><td class="${x.silent?'down':'up'}">${x.silent?'SILENT':'OK'}</td></tr>`).join("");
+}).catch(e=>meta.textContent="Could not load status: "+e);
+</script></body></html>
