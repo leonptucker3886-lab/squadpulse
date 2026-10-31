@@ -1,5 +1,55 @@
 {
-  "checked_at": null,
-  "deploys": [],
-  "members": []
+  "checked_at": "2026-10-31T07:11:55.347Z",
+  "silence_minutes": 60,
+  "up": 3,
+  "down": 0,
+  "deploys": [
+    {
+      "name": "specop-day1-worklog-board",
+      "owner": "SGT Matu May",
+      "deploy": "https://specop-day1-worklog-board-goodbyedawg-7221s-projects.vercel.app",
+      "repo": "https://github.com/leonptucker3886-lab/specop-day1-worklog-board",
+      "http": 200,
+      "up": true,
+      "ms": 538
+    },
+    {
+      "name": "SkillPath v0.1",
+      "owner": "SGT Matu May",
+      "deploy": "https://skillpath-goodbyedawg-7221s-projects.vercel.app",
+      "repo": "https://github.com/leonptucker3886-lab/skillpath",
+      "http": 200,
+      "up": true,
+      "ms": 373
+    },
+    {
+      "name": "SerialDesk v0.1",
+      "owner": "SGT Matu May",
+      "deploy": "https://serialdesk-goodbyedawg-7221s-projects.vercel.app",
+      "repo": "https://github.com/leonptucker3886-lab/serialdesk",
+      "http": 200,
+      "up": true,
+      "ms": 445
+    }
+  ],
+  "members": [
+    {
+      "name": "MAJ Bert",
+      "last_seen": "2026-10-31T07:03:23Z",
+      "minutes_since": 9,
+      "silent": false
+    },
+    {
+      "name": "CPL Nolin Peter",
+      "last_seen": "2026-10-31T07:03:51Z",
+      "minutes_since": 8,
+      "silent": false
+    },
+    {
+      "name": "SGT Matu May",
+      "last_seen": "2026-10-31T07:05:00Z",
+      "minutes_since": 7,
+      "silent": false
+    }
+  ]
 }
