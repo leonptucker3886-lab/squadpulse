@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-14T09:59:34.890Z",
+  "checked_at": "2026-11-14T14:26:30.408Z",
   "trigger": "schedule",
-  "run_url": "https://github.com/leonptucker3886-lab/squadpulse/actions/runs/43583102821",
+  "run_url": "https://github.com/leonptucker3886-lab/squadpulse/actions/runs/43604862418",
   "silence_minutes": 60,
   "up": 7,
   "down": 0,
@@ -17,7 +17,7 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://specop-day1-worklog-board-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 173
+      "ms": 160
     },
     {
       "name": "SkillPath v0.1",
@@ -28,7 +28,7 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://skillpath-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 154
+      "ms": 136
     },
     {
       "name": "SerialDesk v0.1",
@@ -39,7 +39,7 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://serialdesk-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 175
+      "ms": 69
     },
     {
       "name": "SquadPulse v0.1",
@@ -50,7 +50,7 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://squadpulse-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 85
+      "ms": 44
     },
     {
       "name": "BlockWatch v0.1",
@@ -61,7 +61,7 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://blockwatch-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 114
+      "ms": 255
     },
     {
       "name": "ReskinKit v0.1",
@@ -72,7 +72,7 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://reskinkit-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 249
+      "ms": 146
     },
     {
       "name": "Kids Corner (StoryForge Kids) v0.3",
@@ -83,31 +83,31 @@
       "up": true,
       "access": "PUBLIC",
       "final_url": "https://storyforge-kids-goodbyedawg-7221s-projects.vercel.app",
-      "ms": 170
+      "ms": 41
     }
   ],
   "members": [
     {
       "name": "MAJ Bert",
       "last_seen": "2026-10-31T07:03:23Z",
-      "minutes_since": 20336,
+      "minutes_since": 20603,
       "silent": true
     },
     {
       "name": "CPL Nolin Peter",
       "last_seen": "2026-10-31T07:03:51Z",
-      "minutes_since": 20336,
+      "minutes_since": 20603,
       "silent": true
     },
     {
       "name": "SGT Matu May",
       "last_seen": "2026-10-31T07:05:00Z",
-      "minutes_since": 20335,
+      "minutes_since": 20602,
       "silent": true
     }
   ],
   "escalations": {
-    "at": "2026-11-14T09:59:34.890Z",
+    "at": "2026-11-14T14:26:30.408Z",
     "new": 0,
     "open": [
       "QUIET: MAJ Bert",
